@@ -1,0 +1,24 @@
+# 系统与编辑器
+.DS_Store
+*.tmp-copy
+__pycache__/
+*.pyc
+
+# 中间产物与备份（不纳入版本库）
+.scratch/
+_backup/
+tripo-out/
+.tripo/
+.tripo-home/
+*.bak
+*.blend1
+
+# 模型的冗余副本
+# 代码实际引用 assets/models/characters/ 下的版本，以下为逐字节相同的重复拷贝
+assets/models/templar_tpose_unarmored.blend
+assets/models/templar_tpose_unarmored.glb
+assets/models/characters/parts/templar_tpose_unarmored.blend
+assets/models/characters/parts/templar_tpose_unarmored.glb
+
+# 大文件传输临时文件
+*.part

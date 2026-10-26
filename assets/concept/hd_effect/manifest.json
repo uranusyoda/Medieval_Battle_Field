@@ -1,0 +1,99 @@
+{
+  "project": "圣殿骑士团3D",
+  "generator": "MiniMax image-01",
+  "date": "2026-10-26",
+  "character_size": [
+    1536,
+    2048
+  ],
+  "gear_size": [
+    1536,
+    1536
+  ],
+  "items": [
+    {
+      "type": "character",
+      "file": "assets/concept/hd_effect/final/01_templar_tpose_unarmored.png",
+      "width": 1536,
+      "height": 2048,
+      "seed": 454
+    },
+    {
+      "type": "character",
+      "file": "assets/concept/hd_effect/final/02_templar_tpose_armored.png",
+      "width": 1536,
+      "height": 2048,
+      "seed": 504
+    },
+    {
+      "type": "character",
+      "file": "assets/concept/hd_effect/final/03_templar_full_kit.png",
+      "width": 1536,
+      "height": 2048,
+      "seed": 902
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/01_great_helm.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 711
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/02_kite_shield.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 702
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/03_arming_sword.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 721
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/04_mail_hauberk.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 704
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/05_leather_boots.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 705
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/06_leather_belt.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 706
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/07_wool_cloak.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 707
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/08_leather_gloves.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 724
+    },
+    {
+      "type": "gear",
+      "file": "assets/concept/hd_effect/gear/09_surcoat.jpg",
+      "width": 1536,
+      "height": 1536,
+      "seed": 709
+    }
+  ]
+}

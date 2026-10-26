@@ -1,0 +1,18 @@
+{
+  "comment": "圣殿骑士材质与配色契约。色值为 sRGB 十六进制；渲染/引擎中需转线性空间。",
+  "palette": {
+    "surcoat_linen": { "hex": "DDD6C6", "metallic": 0.0,  "roughness": 0.95, "part": "罩袍" },
+    "cross_crimson": { "hex": "9E2B25", "metallic": 0.0,  "roughness": 0.85, "part": "红十字（唯一高饱和色）" },
+    "chainmail_steel": { "hex": "5A5E63", "metallic": 0.85, "roughness": 0.50, "part": "锁子甲" },
+    "helm_steel": { "hex": "6E7278", "metallic": 0.9,  "roughness": 0.42, "part": "大桶盔/剑护手" },
+    "leather_dark": { "hex": "4A3527", "metallic": 0.0,  "roughness": 0.72, "part": "腰带/靴/剑鞘/盾包边" },
+    "brass_aged": { "hex": "8A6E3C", "metallic": 0.85, "roughness": 0.55, "part": "带扣/铆钉/剑首" },
+    "cloak_wool": { "hex": "2B2724", "metallic": 0.0,  "roughness": 0.97, "part": "披风" },
+    "shield_paint": { "hex": "D8D2C4", "metallic": 0.0,  "roughness": 0.80, "part": "盾面白漆" }
+  },
+  "rules": [
+    "画面唯一高饱和色是 cross_crimson，禁止再给披风/盾加红金装饰",
+    "红十字为独立几何片，不烘焙进罩袍贴图，便于换阵营/换团",
+    "Blender 内的程序纹理（织物/锁子甲凹凸）不随 GLB 导出，需要引擎侧用 tiling 贴图补偿"
+  ]
+}

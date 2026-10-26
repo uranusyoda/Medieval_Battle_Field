@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>圣殿骑士 · 动作索引</title>
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">
+{ "imports": {
+    "three": "./vendor/three.module.js",
+    "three/addons/": "./vendor/addons/"
+} }
+</script>
+</head>
+<body>
+<div id="app">
+  <aside id="rail">
+    <header class="rail-head">
+      <p class="eyebrow">TEMPLAR RIG / ANIMATION INDEX</p>
+      <h1>圣殿骑士<span>动作表</span></h1>
+      <dl class="stats">
+        <div><dt>网格</dt><dd id="stat-tris">—</dd></div>
+        <div><dt>骨骼</dt><dd id="stat-bones">—</dd></div>
+        <div><dt>动作</dt><dd id="stat-clips">—</dd></div>
+        <div><dt>文件</dt><dd id="stat-size">—</dd></div>
+      </dl>
+    </header>
+
+    <section class="rail-section rail-models">
+      <h2>模型 · 骨骼状况</h2>
+      <div id="models" class="models" role="listbox" aria-label="模型列表"></div>
+      <dl class="rig" id="rig-info">
+        <div><dt>骨架</dt><dd id="rig-armature">—</dd></div>
+        <div><dt>骨骼</dt><dd id="rig-bones">—</dd></div>
+        <div><dt>蒙皮网格</dt><dd id="rig-skin">—</dd></div>
+        <div><dt>动作</dt><dd id="rig-clips">—</dd></div>
+      </dl>
+      <p class="rig-note" id="rig-note">—</p>
+    </section>
+
+    <ol id="clips" class="clips" aria-label="动作列表"></ol>
+
+    <section class="rail-section rail-display">
+      <h2>显示</h2>
+      <div class="toggles">
+        <label class="toggle"><input type="checkbox" id="tg-grid"> 四联视图 <kbd>G</kbd></label>
+        <label class="toggle"><input type="checkbox" id="tg-skeleton"> 骨架 <kbd>S</kbd></label>
+        <label class="toggle"><input type="checkbox" id="tg-autorotate"> 自动旋转</label>
+        <label class="toggle"><input type="checkbox" id="tg-loop" checked> 循环 <kbd>L</kbd></label>
+      </div>
+    </section>
+
+    <footer class="rail-foot">
+      <p class="path" id="stat-path">—</p>
+      <p class="keys"><kbd>空格</kbd> 播放/暂停 · <kbd>←</kbd><kbd>→</kbd> 切换 · <kbd>M</kbd> 换模型</p>
+    </footer>
+  </aside>
+
+  <main id="stage">
+    <canvas id="canvas"></canvas>
+    <div id="grid-labels" hidden></div>
+
+    <div id="hud">
+      <p class="hud-kicker" id="hud-kicker">动作</p>
+      <p class="hud-name" id="hud-name">载入中</p>
+      <p class="hud-meta" id="hud-meta"><span id="hud-time">0.00</span><span class="sep">/</span><span id="hud-dur">0.00</span><span class="unit">s</span></p>
+    </div>
+
+    <div id="transport">
+      <button id="btn-play" class="play" aria-label="播放/暂停">
+        <span class="icon-play">▶</span><span class="icon-pause">❚❚</span>
+      </button>
+      <div class="scrub-wrap">
+        <input type="range" id="scrub" min="0" max="1000" value="0" step="1" aria-label="时间轴">
+        <div class="scrub-ticks" id="scrub-ticks"></div>
+      </div>
+      <div class="speeds" id="speeds" role="group" aria-label="播放速度"></div>
+      <span class="transport-note" id="transport-note" hidden>静态模型 · 未绑骨 · 无动作</span>
+      <button id="btn-reset" class="ghost">复位视角</button>
+    </div>
+
+    <div id="loading"><span>载入中</span></div>
+    <div id="error" hidden></div>
+  </main>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "tag": "armored_fix_s1001",
+  "seed": 1001,
+  "width": 1536,
+  "height": 2048,
+  "ref": "assets/concept/hd_effect/final/02_templar_tpose_armored.png",
+  "prompt": "Edit this exact image, keeping the same man, the same strict T-pose, the same armor, lighting, camera and plain light grey background. Make only two corrections: (1) the great helm on his head is a CYLINDRICAL FLAT-TOPPED bucket helm with a perfectly flat horizontal top, not pointed; (2) the off-white surcoat has only ONE dark crimson cross on the chest — completely remove the second cross from the skirt and leave plain linen there. Everything else identical. Full body, photorealistic, 8k, no text, no watermark."
+}

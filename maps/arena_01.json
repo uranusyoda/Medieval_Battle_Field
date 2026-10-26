@@ -1,0 +1,15 @@
+{
+  "id": "arena_01",
+  "name": "圣殿前庭",
+  "status": "placeholder",
+  "comment": "地图数据示例：只描述尺寸、出生区与资产引用，不写战斗规则。",
+  "size": { "width": 25.6, "depth": 16.0, "unit": "meter" },
+  "deployment": {
+    "player": { "x": [-12.8, 0.0], "z": [-8.0, 8.0] },
+    "enemy": { "x": [0.0, 12.8], "z": [-8.0, 8.0] }
+  },
+  "assets": {
+    "characters": ["assets/models/characters/templar.glb"],
+    "environment": []
+  }
+}

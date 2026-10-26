@@ -1,0 +1,105 @@
+{
+  "project": "圣殿骑士团3D",
+  "set": "rank_kit",
+  "date": "2026-10-26",
+  "generator": "MiniMax image-01",
+  "size": [
+    1536,
+    2048
+  ],
+  "reference": "assets/concept/input/templar_tpose_20261026.jpg",
+  "items": [
+    {
+      "file": "final/01_knight_tpose.jpg",
+      "no": "01",
+      "zh": "骑士兄弟 · 露脸",
+      "en": "KNIGHT BROTHER",
+      "equipment": [
+        "白罩袍 · 胸前单一红十字",
+        "锁甲长袍 + 锁甲头巾 · 锥盔",
+        "羊毛披风 · 皮靴 · 腰剑挂点"
+      ],
+      "size": [
+        1536,
+        2048
+      ],
+      "gen": {
+        "tag": "knight_s1505",
+        "seed": 1505,
+        "width": 1536,
+        "height": 2048,
+        "ref": "assets/concept/hd_effect/kit/_ref_maskhead.jpg",
+        "prompt": "The SAME man as the reference photo: same build, same broad shoulders, same strict T-pose, same camera distance; only his clothing changes - he is now fully equipped as a Templar. A 13th-century brother knight of the Temple. Off-white padded linen gambeson at collar and cuffs; long-sleeved riveted steel chainmail hauberk to mid-thigh, mail chausses, mail mittens; over it a sleeveless off-white linen surcoat to mid-calf, plain skirt, exactly ONE large dark crimson straight-armed cross on the chest; wide dark brown leather belt with brass buckle; a plain brown leather scabbard hanging empty at his left hip, both hands empty, no weapon in his hands; dark brown wool cloak behind the arms; knee-high brown leather boots. Head completely covered by a great helm: a steel cylinder, flat top like an upturned bucket, no dome, no point, no crest, one narrow horizontal eye slit, completely faceless, no skin, no eyes, no beard. No shield, no gold, no plate armour. STRICT T-POSE: arms straight out sideways at shoulder height, parallel to the floor, shoulders-elbows-wrists on one straight horizontal line, arms exactly 90 degrees to the spine, not lowered, not bent; palms down, fingers together; legs straight, feet shoulder-width, toes forward, body square to camera. Full-body front view, head to soles inside frame, centered, plain light grey seamless studio backdrop, soft even frontal light, subtle contact shadow, no text, no watermark, photorealistic, ultra-detailed, 8k."
+      }
+    },
+    {
+      "file": "final/02_knight_helmed.jpg",
+      "no": "02",
+      "zh": "骑士兄弟 · 闭盔",
+      "en": "KNIGHT · CLOSED HELM",
+      "equipment": [
+        "同上，换闭面盔（眼缝）",
+        "面部不可见，便于做量产单位",
+        "与 3D 大桶盔设定同源"
+      ],
+      "size": [
+        1536,
+        2048
+      ],
+      "gen": {
+        "tag": "knight_s1506",
+        "seed": 1506,
+        "width": 1536,
+        "height": 2048,
+        "ref": "assets/concept/hd_effect/kit/_ref_maskhead.jpg",
+        "prompt": "The SAME man as the reference photo: same build, same broad shoulders, same strict T-pose, same camera distance; only his clothing changes - he is now fully equipped as a Templar. A 13th-century brother knight of the Temple. Off-white padded linen gambeson at collar and cuffs; long-sleeved riveted steel chainmail hauberk to mid-thigh, mail chausses, mail mittens; over it a sleeveless off-white linen surcoat to mid-calf, plain skirt, exactly ONE large dark crimson straight-armed cross on the chest; wide dark brown leather belt with brass buckle; a plain brown leather scabbard hanging empty at his left hip, both hands empty, no weapon in his hands; dark brown wool cloak behind the arms; knee-high brown leather boots. Head completely covered by a great helm: a steel cylinder, flat top like an upturned bucket, no dome, no point, no crest, one narrow horizontal eye slit, completely faceless, no skin, no eyes, no beard. No shield, no gold, no plate armour. STRICT T-POSE: arms straight out sideways at shoulder height, parallel to the floor, shoulders-elbows-wrists on one straight horizontal line, arms exactly 90 degrees to the spine, not lowered, not bent; palms down, fingers together; legs straight, feet shoulder-width, toes forward, body square to camera. Full-body front view, head to soles inside frame, centered, plain light grey seamless studio backdrop, soft even frontal light, subtle contact shadow, no text, no watermark, photorealistic, ultra-detailed, 8k."
+      }
+    },
+    {
+      "file": "final/03_sergeant.jpg",
+      "no": "03",
+      "zh": "军士兄弟",
+      "en": "SERGEANT BROTHER",
+      "equipment": [
+        "深褐罩袍 + 红十字（非白袍）",
+        "锁甲 + 铁壶盔 · 轻骑一人一马",
+        "长矛 / 弩为副，甲比骑士轻"
+      ],
+      "size": [
+        1536,
+        2048
+      ],
+      "gen": {
+        "tag": "sergeant_s1603",
+        "seed": 1603,
+        "width": 1536,
+        "height": 2048,
+        "ref": "assets/concept/hd_effect/kit/_ref_maskhead.jpg",
+        "prompt": "The SAME man as the reference photo: same build, same broad shoulders, same strict T-pose, same camera distance; only his clothing changes - he is now fully equipped as a Templar. A 12th-century sergeant brother of the Temple, a mounted sergeant, not a knight. Padded leather jerkin under a SLEEVELESS riveted steel chainmail hauberk to mid-thigh, bare forearms in linen sleeves, mail chausses without foot coverings; over the mail a dark brown almost black coarse wool surcoat to mid-calf, exactly ONE dark crimson cross sewn straight onto the dark wool, plain skirt, no white cloth anywhere, no white panel or shield shape on the chest, he is not entitled to the white habit; plain brown leather belt; knee-high brown leather boots. On his head an open-faced iron kettle hat with a wide brim and low crown, over a mail coif, his face, short beard and jaw visible. Short sword in a brown leather scabbard at his left hip. No shield, no cloak, no gold, no plate armour. STRICT T-POSE: arms straight out sideways at shoulder height, parallel to the floor, shoulders-elbows-wrists on one straight horizontal line, arms exactly 90 degrees to the spine, not lowered, not bent; palms down, fingers together; legs straight, feet shoulder-width, toes forward, body square to camera. Full-body front view, head to soles inside frame, centered, plain light grey seamless studio backdrop, soft even frontal light, subtle contact shadow, no text, no watermark, photorealistic, ultra-detailed, 8k."
+      }
+    },
+    {
+      "file": "final/04_turcopole.jpg",
+      "no": "04",
+      "zh": "突厥轻骑",
+      "en": "TURCOPOLE",
+      "equipment": [
+        "无锁甲：厚棉甲 + 软帽",
+        "复合弓 + 箭袋，侦察与袭扰",
+        "不穿白袍、不佩红十字"
+      ],
+      "size": [
+        1536,
+        2048
+      ],
+      "gen": {
+        "tag": "turcopole_s1704",
+        "seed": 1704,
+        "width": 1536,
+        "height": 2048,
+        "ref": "assets/concept/input/templar_tpose_20261026.jpg",
+        "prompt": "The SAME man as the reference photo: same build, same broad shoulders, same strict T-pose, same camera distance; only his clothing changes - he is now fully equipped as a Templar. A turcopole, a lightly armed mounted archer of the Templars' auxiliary cavalry, 12th-century Levant. Thick quilted off-white cotton aketon gambeson to mid-thigh, visible vertical quilting, brown leather belt, loose dark brown wool trousers, knee-high soft brown leather riding boots, short brown cloak over one shoulder. NO chainmail anywhere, not even on the arms, bare forearms. On his head a soft pointed wool cap. A leather quiver of arrows at his right hip. Face fully visible, sun-tanned, short dark beard. A plain undyed quilted aketon with no cross, no badge, no religious symbol. No white surcoat, no red cross, no shield, no gold, no plate armour. STRICT T-POSE: arms straight out sideways at shoulder height, parallel to the floor, shoulders-elbows-wrists on one straight horizontal line, arms exactly 90 degrees to the spine, not lowered, not bent; palms down, fingers together; legs straight, feet shoulder-width, toes forward, body square to camera. Full-body front view, head to soles inside frame, centered, plain light grey seamless studio backdrop, soft even frontal light, subtle contact shadow, no text, no watermark, photorealistic, ultra-detailed, 8k."
+      }
+    }
+  ]
+}
