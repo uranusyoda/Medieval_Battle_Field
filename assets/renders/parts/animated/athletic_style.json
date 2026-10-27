@@ -1,0 +1,4678 @@
+{
+  "glb": "/Users/yoda/Desktop/工作/超脑AI/2026/20260810 游戏营/圣殿骑士团/圣殿骑士团3D/assets/models/characters/parts/templar_anatomical_animated.glb",
+  "sha256": "07ecc53d5e7764953b92b1b76881268728138966799a30b95f0a7529f28eed37",
+  "baseline": "/tmp/knight_athletic_before.npz",
+  "scope": "Exact preserved tracks, world-space skeletal arm directions and saved Blender jump trajectory; naturalness requires visual review.",
+  "preserved_tracks": {
+    "count": 780,
+    "all_exact": true,
+    "tracks": [
+      {
+        "key": "crouch|chest|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|chest|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|chest|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|foot.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|foot.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|foot.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|foot.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|foot.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|foot.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|forearm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|forearm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|forearm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|forearm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|forearm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|forearm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hand.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hand.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hand.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hand.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hand.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hand.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|head|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|head|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|head|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hips|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hips|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|hips|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|index.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|middle.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|neck|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|neck|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|neck|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|pinky.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|ring.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|root|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|root|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|root|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shin.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shin.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shin.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shin.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shin.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shin.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shoulder.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shoulder.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shoulder.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shoulder.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shoulder.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|shoulder.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|spine|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|spine|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|spine|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thigh.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thigh.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thigh.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thigh.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thigh.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thigh.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|thumb.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|toe.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|toe.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|toe.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|toe.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|toe.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|toe.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|upper_arm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|upper_arm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|upper_arm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|upper_arm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|upper_arm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "crouch|upper_arm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|chest|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|chest|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|chest|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|foot.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|foot.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|foot.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|foot.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|foot.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|foot.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|forearm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|forearm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|forearm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|forearm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|forearm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|forearm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hand.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hand.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hand.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hand.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hand.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hand.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|head|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|head|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|head|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hips|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hips|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|hips|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|index.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|middle.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|neck|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|neck|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|neck|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|pinky.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|ring.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|root|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|root|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|root|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shin.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shin.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shin.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shin.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shin.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shin.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shoulder.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shoulder.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shoulder.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shoulder.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shoulder.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|shoulder.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|spine|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|spine|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|spine|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thigh.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thigh.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thigh.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thigh.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thigh.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thigh.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|thumb.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|toe.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|toe.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|toe.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|toe.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|toe.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|toe.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|upper_arm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|upper_arm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|upper_arm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|upper_arm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|upper_arm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "finger_wave|upper_arm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|chest|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|chest|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|chest|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|foot.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|foot.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|foot.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|foot.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|foot.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|foot.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|forearm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|forearm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|forearm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|forearm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|forearm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|forearm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hand.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hand.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hand.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hand.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hand.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hand.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|head|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|head|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|head|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hips|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hips|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|hips|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|index.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|middle.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|neck|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|neck|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|neck|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|pinky.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|ring.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|root|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|root|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|root|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shin.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shin.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shin.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shin.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shin.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shin.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shoulder.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shoulder.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shoulder.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shoulder.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shoulder.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|shoulder.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|spine|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|spine|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|spine|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thigh.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thigh.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thigh.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thigh.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thigh.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thigh.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|thumb.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|toe.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|toe.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|toe.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|toe.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|toe.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|toe.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|upper_arm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|upper_arm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|upper_arm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|upper_arm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|upper_arm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "grip|upper_arm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|foot.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|foot.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|foot.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|foot.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|foot.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|foot.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|hips|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|hips|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|hips|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|root|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|root|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|root|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|shin.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|shin.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|shin.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|shin.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|shin.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|shin.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|thigh.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|thigh.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|thigh.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|thigh.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|thigh.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|thigh.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|toe.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|toe.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|toe.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|toe.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|toe.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "run|toe.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|foot.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|foot.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|foot.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|foot.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|foot.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|foot.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|hips|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|hips|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|hips|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|root|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|root|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|root|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|shin.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|shin.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|shin.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|shin.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|shin.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|shin.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|thigh.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|thigh.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|thigh.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|thigh.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|thigh.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|thigh.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|toe.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|toe.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|toe.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|toe.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|toe.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "walk|toe.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|chest|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|chest|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|chest|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|foot.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|foot.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|foot.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|foot.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|foot.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|foot.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|forearm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|forearm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|forearm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|forearm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|forearm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|forearm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hand.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hand.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hand.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hand.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hand.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hand.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|head|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|head|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|head|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hips|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hips|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|hips|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|index.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|middle.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|neck|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|neck|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|neck|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|pinky.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.03.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.03.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.03.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.03.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.03.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.03.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|ring.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|root|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|root|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|root|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shin.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shin.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shin.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shin.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shin.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shin.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shoulder.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shoulder.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shoulder.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shoulder.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shoulder.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|shoulder.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|spine|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|spine|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|spine|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thigh.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thigh.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thigh.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thigh.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thigh.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thigh.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.01.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.01.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.01.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.01.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.01.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.01.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.02.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.02.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.02.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.02.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.02.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.02.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.metacarpal.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.metacarpal.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.metacarpal.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.metacarpal.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.metacarpal.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|thumb.metacarpal.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|toe.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|toe.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|toe.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|toe.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|toe.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|toe.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|upper_arm.L|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|upper_arm.L|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|upper_arm.L|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|upper_arm.R|rotation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|upper_arm.R|scale",
+        "exact": true,
+        "max_abs_difference": 0.0
+      },
+      {
+        "key": "wrist|upper_arm.R|translation",
+        "exact": true,
+        "max_abs_difference": 0.0
+      }
+    ]
+  },
+  "skeleton": {
+    "bones": 60,
+    "checked_finger_joint_parents": 38,
+    "finger_parentage_exact": true
+  },
+  "arms": {
+    "idle": {
+      "L": {
+        "outward_component_deg": {
+          "min": 15.001284721798664,
+          "mean": 15.7894396268765,
+          "max": 16.598689111106523
+        },
+        "before_outward_component_deg": {
+          "min": 7.402408539230078,
+          "mean": 7.402420987793047,
+          "max": 7.402433395781574
+        },
+        "mean_outward_increase_deg": 8.387018639083454,
+        "elbow_flexion_deg": {
+          "min": 8.331874056656678,
+          "mean": 8.857864464984921,
+          "max": 9.346864009474816
+        }
+      },
+      "R": {
+        "outward_component_deg": {
+          "min": 15.001126417294186,
+          "mean": 15.805982394927623,
+          "max": 16.59881795916637
+        },
+        "before_outward_component_deg": {
+          "min": 7.402408539230049,
+          "mean": 7.402420987793005,
+          "max": 7.402433395781518
+        },
+        "mean_outward_increase_deg": 8.403561407134617,
+        "elbow_flexion_deg": {
+          "min": 8.331743179235653,
+          "mean": 8.853479143844924,
+          "max": 9.348852619773714
+        }
+      }
+    },
+    "walk": {
+      "L": {
+        "outward_component_deg": {
+          "min": 16.79999597435075,
+          "mean": 17.999987056376455,
+          "max": 19.1999733011417
+        },
+        "before_outward_component_deg": {
+          "min": 7.920088885878624,
+          "mean": 9.063632358744071,
+          "max": 10.439655558383858
+        },
+        "mean_outward_increase_deg": 8.936354697632384,
+        "elbow_flexion_deg": {
+          "min": 9.17988760895396,
+          "mean": 14.41312927392741,
+          "max": 18.78367846621956
+        }
+      },
+      "R": {
+        "outward_component_deg": {
+          "min": 16.79999177640007,
+          "mean": 17.999987859662152,
+          "max": 19.199985704012818
+        },
+        "before_outward_component_deg": {
+          "min": 7.486213816182267,
+          "mean": 8.109872193775558,
+          "max": 8.549342019863666
+        },
+        "mean_outward_increase_deg": 9.890115665886594,
+        "elbow_flexion_deg": {
+          "min": 9.79613969559913,
+          "mean": 13.578218225214417,
+          "max": 16.65063078705258
+        }
+      }
+    },
+    "run": {
+      "L": {
+        "outward_component_deg": {
+          "min": 19.298994514682438,
+          "mean": 20.500024395745214,
+          "max": 21.699616721137804
+        },
+        "before_outward_component_deg": {
+          "min": 0.07353085976091367,
+          "mean": 5.674806063920052,
+          "max": 9.997653185776326
+        },
+        "mean_outward_increase_deg": 14.825218331825162,
+        "elbow_flexion_deg": {
+          "min": 100.38409017151346,
+          "mean": 104.84802131741957,
+          "max": 107.6949066320869
+        }
+      },
+      "R": {
+        "outward_component_deg": {
+          "min": 19.299317684587116,
+          "mean": 20.50000870745014,
+          "max": 21.69923535113749
+        },
+        "before_outward_component_deg": {
+          "min": 0.13323880404737926,
+          "mean": 2.8283229106400958,
+          "max": 7.370777243468004
+        },
+        "mean_outward_increase_deg": 17.671685796810042,
+        "elbow_flexion_deg": {
+          "min": 96.53031290593393,
+          "mean": 102.21864367268756,
+          "max": 105.04786442699466
+        }
+      }
+    }
+  },
+  "jump": {
+    "takeoff_s": 0.45,
+    "landing_s": 1.1,
+    "duration_s": 2.0,
+    "apex_s": 0.7666666666666666,
+    "pelvis_rise_m": 0.5795648097991943,
+    "lowest_sole_m": -0.000946536660194397,
+    "interior_airborne_min_sole_m": 0.3198322653770447,
+    "fitted_airborne_acceleration_m_s2": -9.808441307246381,
+    "airborne_quadratic_fit_max_residual_m": 0.00031516958491950575,
+    "samples": [
+      {
+        "t_s": 0.0,
+        "hip_z_m": 0.9180418252944946,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 0.016666666666666666,
+        "hip_z_m": 0.9180379509925842,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 0.03333333333333333,
+        "hip_z_m": 0.9180271029472351,
+        "lowest_sole_m": 2.9802322387695312e-08
+      },
+      {
+        "t_s": 0.05,
+        "hip_z_m": 0.9180092811584473,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 0.06666666666666667,
+        "hip_z_m": 0.9179847240447998,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 0.08333333333333333,
+        "hip_z_m": 0.9178480505943298,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 0.1,
+        "hip_z_m": 0.914263904094696,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 0.11666666666666667,
+        "hip_z_m": 0.9060680270195007,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.13333333333333333,
+        "hip_z_m": 0.89384925365448,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 0.15,
+        "hip_z_m": 0.8782356977462769,
+        "lowest_sole_m": -2.9802322387695312e-08
+      },
+      {
+        "t_s": 0.16666666666666666,
+        "hip_z_m": 0.8598867654800415,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 0.18333333333333332,
+        "hip_z_m": 0.8394802212715149,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.2,
+        "hip_z_m": 0.8177025318145752,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 0.21666666666666667,
+        "hip_z_m": 0.7952452301979065,
+        "lowest_sole_m": -7.450580596923828e-09
+      },
+      {
+        "t_s": 0.23333333333333334,
+        "hip_z_m": 0.7728028893470764,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.25,
+        "hip_z_m": 0.7510706782341003,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 0.26666666666666666,
+        "hip_z_m": 0.7307446599006653,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 0.2833333333333333,
+        "hip_z_m": 0.7125205397605896,
+        "lowest_sole_m": 2.9802322387695312e-08
+      },
+      {
+        "t_s": 0.3,
+        "hip_z_m": 0.6970939636230469,
+        "lowest_sole_m": 2.9802322387695312e-08
+      },
+      {
+        "t_s": 0.31666666666666665,
+        "hip_z_m": 0.6828179359436035,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.3333333333333333,
+        "hip_z_m": 0.6869916915893555,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.35,
+        "hip_z_m": 0.7050086259841919,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 0.36666666666666664,
+        "hip_z_m": 0.7333798408508301,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.3833333333333333,
+        "hip_z_m": 0.7768430709838867,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.4,
+        "hip_z_m": 0.8285813331604004,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.4166666666666667,
+        "hip_z_m": 0.8837803602218628,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.43,
+        "hip_z_m": 0.9283519387245178,
+        "lowest_sole_m": -0.000946536660194397
+      },
+      {
+        "t_s": 0.43333333333333335,
+        "hip_z_m": 0.9394949078559875,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 0.45,
+        "hip_z_m": 0.9934976100921631,
+        "lowest_sole_m": -4.470348358154297e-08
+      },
+      {
+        "t_s": 0.4666666666666667,
+        "hip_z_m": 1.0445547103881836,
+        "lowest_sole_m": 0.051801666617393494
+      },
+      {
+        "t_s": 0.47000000000000003,
+        "hip_z_m": 1.0542211532592773,
+        "lowest_sole_m": 0.06198010593652725
+      },
+      {
+        "t_s": 0.48333333333333334,
+        "hip_z_m": 1.0928866863250732,
+        "lowest_sole_m": 0.10272840410470963
+      },
+      {
+        "t_s": 0.5,
+        "hip_z_m": 1.1384937763214111,
+        "lowest_sole_m": 0.15594559907913208
+      },
+      {
+        "t_s": 0.5166666666666666,
+        "hip_z_m": 1.1813758611679077,
+        "lowest_sole_m": 0.21055732667446136
+      },
+      {
+        "t_s": 0.5333333333333333,
+        "hip_z_m": 1.2215328216552734,
+        "lowest_sole_m": 0.2655242383480072
+      },
+      {
+        "t_s": 0.55,
+        "hip_z_m": 1.2589648962020874,
+        "lowest_sole_m": 0.3198322653770447
+      },
+      {
+        "t_s": 0.5666666666666667,
+        "hip_z_m": 1.29367196559906,
+        "lowest_sole_m": 0.3724541962146759
+      },
+      {
+        "t_s": 0.5833333333333334,
+        "hip_z_m": 1.3256540298461914,
+        "lowest_sole_m": 0.4223105013370514
+      },
+      {
+        "t_s": 0.6,
+        "hip_z_m": 1.3549110889434814,
+        "lowest_sole_m": 0.4683678150177002
+      },
+      {
+        "t_s": 0.6166666666666667,
+        "hip_z_m": 1.3814431428909302,
+        "lowest_sole_m": 0.5095859169960022
+      },
+      {
+        "t_s": 0.6333333333333333,
+        "hip_z_m": 1.4052501916885376,
+        "lowest_sole_m": 0.5449135303497314
+      },
+      {
+        "t_s": 0.65,
+        "hip_z_m": 1.4263322353363037,
+        "lowest_sole_m": 0.5741955637931824
+      },
+      {
+        "t_s": 0.6666666666666666,
+        "hip_z_m": 1.4446892738342285,
+        "lowest_sole_m": 0.6004187762737274
+      },
+      {
+        "t_s": 0.6833333333333333,
+        "hip_z_m": 1.4603214263916016,
+        "lowest_sole_m": 0.6237511336803436
+      },
+      {
+        "t_s": 0.7,
+        "hip_z_m": 1.4732284545898438,
+        "lowest_sole_m": 0.6440097987651825
+      },
+      {
+        "t_s": 0.7166666666666667,
+        "hip_z_m": 1.4834104776382446,
+        "lowest_sole_m": 0.6609956920146942
+      },
+      {
+        "t_s": 0.7333333333333333,
+        "hip_z_m": 1.4908674955368042,
+        "lowest_sole_m": 0.674496978521347
+      },
+      {
+        "t_s": 0.75,
+        "hip_z_m": 1.4955995082855225,
+        "lowest_sole_m": 0.6843150556087494
+      },
+      {
+        "t_s": 0.7666666666666666,
+        "hip_z_m": 1.497606635093689,
+        "lowest_sole_m": 0.6902565658092499
+      },
+      {
+        "t_s": 0.775,
+        "hip_z_m": 1.4972476959228516,
+        "lowest_sole_m": 0.6911865174770355
+      },
+      {
+        "t_s": 0.7833333333333333,
+        "hip_z_m": 1.4968886375427246,
+        "lowest_sole_m": 0.6921146810054779
+      },
+      {
+        "t_s": 0.8,
+        "hip_z_m": 1.493445634841919,
+        "lowest_sole_m": 0.6894064843654633
+      },
+      {
+        "t_s": 0.8166666666666667,
+        "hip_z_m": 1.4872777462005615,
+        "lowest_sole_m": 0.681097000837326
+      },
+      {
+        "t_s": 0.8333333333333334,
+        "hip_z_m": 1.4783847332000732,
+        "lowest_sole_m": 0.6675090491771698
+      },
+      {
+        "t_s": 0.85,
+        "hip_z_m": 1.4667668342590332,
+        "lowest_sole_m": 0.6491092145442963
+      },
+      {
+        "t_s": 0.8666666666666667,
+        "hip_z_m": 1.4524239301681519,
+        "lowest_sole_m": 0.626364678144455
+      },
+      {
+        "t_s": 0.8833333333333333,
+        "hip_z_m": 1.4353559017181396,
+        "lowest_sole_m": 0.5997336804866791
+      },
+      {
+        "t_s": 0.9,
+        "hip_z_m": 1.4155629873275757,
+        "lowest_sole_m": 0.5696693658828735
+      },
+      {
+        "t_s": 0.9166666666666666,
+        "hip_z_m": 1.3930450677871704,
+        "lowest_sole_m": 0.5366514921188354
+      },
+      {
+        "t_s": 0.9333333333333333,
+        "hip_z_m": 1.3678021430969238,
+        "lowest_sole_m": 0.5011606216430664
+      },
+      {
+        "t_s": 0.95,
+        "hip_z_m": 1.339834213256836,
+        "lowest_sole_m": 0.4636757969856262
+      },
+      {
+        "t_s": 0.9666666666666667,
+        "hip_z_m": 1.3091411590576172,
+        "lowest_sole_m": 0.4244617223739624
+      },
+      {
+        "t_s": 0.9833333333333333,
+        "hip_z_m": 1.2757232189178467,
+        "lowest_sole_m": 0.38200706243515015
+      },
+      {
+        "t_s": 1.0,
+        "hip_z_m": 1.2395803928375244,
+        "lowest_sole_m": 0.335105836391449
+      },
+      {
+        "t_s": 1.0166666666666666,
+        "hip_z_m": 1.2007124423980713,
+        "lowest_sole_m": 0.28447434306144714
+      },
+      {
+        "t_s": 1.0333333333333332,
+        "hip_z_m": 1.1591193675994873,
+        "lowest_sole_m": 0.232369065284729
+      },
+      {
+        "t_s": 1.05,
+        "hip_z_m": 1.1148015260696411,
+        "lowest_sole_m": 0.17939351499080658
+      },
+      {
+        "t_s": 1.0666666666666667,
+        "hip_z_m": 1.0617088079452515,
+        "lowest_sole_m": 0.11811001598834991
+      },
+      {
+        "t_s": 1.08,
+        "hip_z_m": 1.0174998044967651,
+        "lowest_sole_m": 0.06812096387147903
+      },
+      {
+        "t_s": 1.0833333333333333,
+        "hip_z_m": 1.0064477920532227,
+        "lowest_sole_m": 0.05581504479050636
+      },
+      {
+        "t_s": 1.1,
+        "hip_z_m": 0.9527820944786072,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.1166666666666667,
+        "hip_z_m": 0.8998908996582031,
+        "lowest_sole_m": -7.450580596923828e-08
+      },
+      {
+        "t_s": 1.12,
+        "hip_z_m": 0.8902263641357422,
+        "lowest_sole_m": -0.0008290410041809082
+      },
+      {
+        "t_s": 1.1333333333333333,
+        "hip_z_m": 0.851567268371582,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 1.15,
+        "hip_z_m": 0.8110663294792175,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.1666666666666667,
+        "hip_z_m": 0.7783434391021729,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.1833333333333333,
+        "hip_z_m": 0.7514955401420593,
+        "lowest_sole_m": -2.9802322387695312e-08
+      },
+      {
+        "t_s": 1.2,
+        "hip_z_m": 0.7316651940345764,
+        "lowest_sole_m": -7.450580596923828e-09
+      },
+      {
+        "t_s": 1.2166666666666666,
+        "hip_z_m": 0.7200498580932617,
+        "lowest_sole_m": -3.725290298461914e-08
+      },
+      {
+        "t_s": 1.2333333333333334,
+        "hip_z_m": 0.7171759009361267,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.25,
+        "hip_z_m": 0.7195637226104736,
+        "lowest_sole_m": -3.725290298461914e-08
+      },
+      {
+        "t_s": 1.2666666666666666,
+        "hip_z_m": 0.7250393033027649,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.2833333333333332,
+        "hip_z_m": 0.7331920862197876,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.3,
+        "hip_z_m": 0.7436105012893677,
+        "lowest_sole_m": -5.960464477539063e-08
+      },
+      {
+        "t_s": 1.3166666666666667,
+        "hip_z_m": 0.7558828592300415,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.3333333333333333,
+        "hip_z_m": 0.7695968151092529,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.35,
+        "hip_z_m": 0.7843399047851562,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.3666666666666667,
+        "hip_z_m": 0.7997002005577087,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.3833333333333333,
+        "hip_z_m": 0.815265417098999,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.4,
+        "hip_z_m": 0.8306249380111694,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.4166666666666667,
+        "hip_z_m": 0.8453688621520996,
+        "lowest_sole_m": -7.450580596923828e-09
+      },
+      {
+        "t_s": 1.4333333333333333,
+        "hip_z_m": 0.8590903282165527,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 1.45,
+        "hip_z_m": 0.871385931968689,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.4666666666666666,
+        "hip_z_m": 0.8818574547767639,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.4833333333333334,
+        "hip_z_m": 0.890113890171051,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.5,
+        "hip_z_m": 0.8957713842391968,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.5166666666666666,
+        "hip_z_m": 0.8999694585800171,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.5333333333333332,
+        "hip_z_m": 0.9040483236312866,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.55,
+        "hip_z_m": 0.9079355001449585,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.5666666666666667,
+        "hip_z_m": 0.9115570783615112,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.5833333333333333,
+        "hip_z_m": 0.9148389101028442,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.6,
+        "hip_z_m": 0.9177080988883972,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.6166666666666667,
+        "hip_z_m": 0.9200934171676636,
+        "lowest_sole_m": -2.9802322387695312e-08
+      },
+      {
+        "t_s": 1.6333333333333333,
+        "hip_z_m": 0.9220913052558899,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.65,
+        "hip_z_m": 0.9234709143638611,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.6666666666666667,
+        "hip_z_m": 0.9240643382072449,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.6833333333333333,
+        "hip_z_m": 0.9240466952323914,
+        "lowest_sole_m": -2.9802322387695312e-08
+      },
+      {
+        "t_s": 1.7,
+        "hip_z_m": 0.9239224791526794,
+        "lowest_sole_m": -7.450580596923828e-09
+      },
+      {
+        "t_s": 1.7166666666666666,
+        "hip_z_m": 0.9237171411514282,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.7333333333333334,
+        "hip_z_m": 0.9234407544136047,
+        "lowest_sole_m": -1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.75,
+        "hip_z_m": 0.9231032729148865,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.7666666666666666,
+        "hip_z_m": 0.9227150082588196,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 1.7833333333333332,
+        "hip_z_m": 0.9222856163978577,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 1.8,
+        "hip_z_m": 0.9218255281448364,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 1.8166666666666667,
+        "hip_z_m": 0.9213458299636841,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.8333333333333333,
+        "hip_z_m": 0.9209202527999878,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.8499999999999999,
+        "hip_z_m": 0.9204931855201721,
+        "lowest_sole_m": 7.450580596923828e-09
+      },
+      {
+        "t_s": 1.8666666666666667,
+        "hip_z_m": 0.9200735092163086,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.8833333333333333,
+        "hip_z_m": 0.9196698665618896,
+        "lowest_sole_m": -7.450580596923828e-09
+      },
+      {
+        "t_s": 1.9,
+        "hip_z_m": 0.9192913174629211,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 1.9166666666666667,
+        "hip_z_m": 0.9189465045928955,
+        "lowest_sole_m": 1.4901161193847656e-08
+      },
+      {
+        "t_s": 1.9333333333333333,
+        "hip_z_m": 0.9186445474624634,
+        "lowest_sole_m": 2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.95,
+        "hip_z_m": 0.918394148349762,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.9666666666666666,
+        "hip_z_m": 0.9182043671607971,
+        "lowest_sole_m": -2.2351741790771484e-08
+      },
+      {
+        "t_s": 1.9833333333333334,
+        "hip_z_m": 0.9180840253829956,
+        "lowest_sole_m": 0.0
+      },
+      {
+        "t_s": 2.0,
+        "hip_z_m": 0.9180418252944946,
+        "lowest_sole_m": 0.0
+      }
+    ]
+  },
+  "failures": [],
+  "passed": true
+}

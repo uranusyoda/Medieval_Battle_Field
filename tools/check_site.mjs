@@ -162,7 +162,7 @@ const rigPanel = await evaluate(`(() => ({
   chip: document.querySelector('.model[aria-selected="true"] .model-chip').textContent,
 }))()`);
 const modelCount = await evaluate(`document.querySelectorAll('.model').length`);
-check('模型列表 3 条', modelCount === 3, `实际 ${modelCount}`);
+check('模型列表 4 条', modelCount === 4, `实际 ${modelCount}`);
 check('templar_rig：25 骨 / 1 蒙皮 / 4 动作',
   rigPanel.bones === '25' && rigPanel.armature === '有' && rigPanel.clips === '4' && rigPanel.measured === 25,
   JSON.stringify(rigPanel));
@@ -239,6 +239,32 @@ check('绑骨版：HUD 标「已绑骨」、顶栏不写未绑骨',
 check('绑骨版：骨架开关仍可用、播放/四联停用',
   riggedNoClip.skelEnabled && riggedNoClip.playDisabled && riggedNoClip.gridDisabled
   && riggedNoClip.skeletonHelper, riggedNoClip.note);
+
+/* ---- 分块手部修订版：55 骨 / 16 蒙皮网格 ---- */
+await evaluate(`document.querySelector('.model[data-model="templar_tpose_unarmored_parts_rig_handfix"]').click()`);
+await waitFor(
+  `document.getElementById('loading').style.display === 'none' && window.__index.state.entry.id === 'templar_tpose_unarmored_parts_rig_handfix'`,
+  '手部修订版载入完成', 180000);
+const handfix = await evaluate(`(() => ({
+  bones: window.__index.state.bones,
+  skins: window.__index.state.skinned,
+  clips: window.__index.state.clips.length,
+  skinPanel: document.getElementById('rig-skin').textContent,
+  skeletonEnabled: !document.getElementById('tg-skeleton').disabled,
+  playDisabled: document.getElementById('btn-play').disabled,
+  errorHidden: document.getElementById('error').hidden,
+}))()`);
+check('手部修订版：55 骨 / 16 蒙皮 / 0 动作',
+  handfix.bones === 55 && handfix.skins === 16 && handfix.clips === 0
+  && handfix.skinPanel === '16 / 16' && handfix.errorHidden, JSON.stringify(handfix));
+check('手部修订版：骨架可用、播放停用', handfix.skeletonEnabled && handfix.playDisabled);
+const handfixSkeleton = await evaluate(`(() => {
+  const toggle = document.getElementById('tg-skeleton');
+  toggle.checked = true;
+  toggle.dispatchEvent(new Event('change'));
+  return window.__index.state.skeletonHelper.visible;
+})()`);
+check('手部修订版：骨架实际显示', handfixSkeleton === true);
 
 await evaluate(`document.querySelector('.model[data-model="templar_rig"]').click()`);
 await waitFor(

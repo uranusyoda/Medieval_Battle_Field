@@ -1,0 +1,2748 @@
+{
+  "glb": "/Users/yoda/Desktop/工作/超脑AI/2026/20260810 游戏营/圣殿骑士团/圣殿骑士团3D/assets/models/characters/parts/templar_anatomical_animated.glb",
+  "baseline": "/tmp/knight_walk_before.npz",
+  "tolerance": 2e-05,
+  "scope": "Numeric scope preservation and graded relaxed finger flexion; visual style requires viewing the animation.",
+  "checked_run_tracks": 180,
+  "checked_walk_lower_body_tracks": 30,
+  "protected_tracks": [
+    {
+      "key": "run|chest|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|chest|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|chest|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|foot.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|foot.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|foot.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|foot.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|foot.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|foot.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|forearm.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|forearm.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|forearm.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|forearm.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|forearm.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|forearm.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hand.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hand.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hand.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hand.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hand.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hand.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|head|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|head|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|head|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hips|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hips|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|hips|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.01.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.01.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.01.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.01.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.01.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.01.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.02.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.02.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.02.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.02.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.02.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.02.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.03.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.03.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.03.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.03.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.03.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.03.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.metacarpal.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.metacarpal.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.metacarpal.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.metacarpal.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.metacarpal.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|index.metacarpal.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.01.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.01.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.01.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.01.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.01.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.01.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.02.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.02.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.02.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.02.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.02.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.02.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.03.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.03.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.03.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.03.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.03.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.03.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.metacarpal.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.metacarpal.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.metacarpal.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.metacarpal.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.metacarpal.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|middle.metacarpal.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|neck|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|neck|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|neck|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.01.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.01.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.01.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.01.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.01.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.01.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.02.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.02.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.02.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.02.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.02.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.02.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.03.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.03.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.03.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.03.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.03.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.03.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.metacarpal.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.metacarpal.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.metacarpal.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.metacarpal.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.metacarpal.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|pinky.metacarpal.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.01.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.01.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.01.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.01.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.01.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.01.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.02.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.02.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.02.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.02.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.02.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.02.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.03.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.03.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.03.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.03.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.03.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.03.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.metacarpal.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.metacarpal.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.metacarpal.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.metacarpal.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.metacarpal.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|ring.metacarpal.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|root|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|root|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|root|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shin.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shin.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shin.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shin.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shin.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shin.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shoulder.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shoulder.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shoulder.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shoulder.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shoulder.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|shoulder.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|spine|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|spine|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|spine|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thigh.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thigh.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thigh.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thigh.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thigh.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thigh.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.01.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.01.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.01.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.01.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.01.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.01.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.02.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.02.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.02.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.02.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.02.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.02.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.metacarpal.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.metacarpal.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.metacarpal.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.metacarpal.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.metacarpal.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|thumb.metacarpal.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|toe.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|toe.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|toe.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|toe.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|toe.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|toe.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|upper_arm.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|upper_arm.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|upper_arm.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|upper_arm.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|upper_arm.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "run|upper_arm.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|foot.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|foot.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|foot.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|foot.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|foot.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|foot.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|hips|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|hips|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|hips|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|root|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|root|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|root|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|shin.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|shin.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|shin.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|shin.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|shin.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|shin.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|thigh.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|thigh.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|thigh.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|thigh.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|thigh.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|thigh.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|toe.L|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|toe.L|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|toe.L|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|toe.R|rotation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|toe.R|scale",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "key": "walk|toe.R|translation",
+      "interpolation_equal": true,
+      "input": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "output": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0
+      }
+    }
+  ],
+  "walking_arm_changes": [
+    {
+      "node": "shoulder.L",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.0993177592754364
+      }
+    },
+    {
+      "node": "upper_arm.L",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.11999958753585815
+      }
+    },
+    {
+      "node": "forearm.L",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.17953317612409592
+      }
+    },
+    {
+      "node": "hand.L",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.13985233008861542
+      }
+    },
+    {
+      "node": "shoulder.R",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.08244693279266357
+      }
+    },
+    {
+      "node": "upper_arm.R",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.1223328709602356
+      }
+    },
+    {
+      "node": "forearm.R",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.1504954993724823
+      }
+    },
+    {
+      "node": "hand.R",
+      "changed": true,
+      "values": {
+        "shape_equal": true,
+        "max_abs_difference": 0.09698483347892761
+      }
+    }
+  ],
+  "walking_finger_flexion": {
+    "L": {
+      "index_MCP": {
+        "min_deg": 15.68641061735478,
+        "mean_deg": 15.68641061735478,
+        "max_deg": 15.68641061735478,
+        "run_mean_deg": 63.05001471072199
+      },
+      "middle_MCP": {
+        "min_deg": 18.240010102128405,
+        "mean_deg": 18.240010102128405,
+        "max_deg": 18.240010102128405,
+        "run_mean_deg": 63.05000164348171
+      },
+      "ring_MCP": {
+        "min_deg": 19.69919626816157,
+        "mean_deg": 19.69919626816157,
+        "max_deg": 19.69919626816157,
+        "run_mean_deg": 63.0500102204249
+      },
+      "pinky_MCP": {
+        "min_deg": 21.158395657480593,
+        "mean_deg": 21.158395657480593,
+        "max_deg": 21.158395657480593,
+        "run_mean_deg": 63.050006683439165
+      },
+      "index_PIP": {
+        "min_deg": 21.242006635492974,
+        "mean_deg": 21.242006635492974,
+        "max_deg": 21.242006635492974,
+        "run_mean_deg": 82.45000044874408
+      },
+      "middle_PIP": {
+        "min_deg": 24.700009994892884,
+        "mean_deg": 24.700009994892884,
+        "max_deg": 24.700009994892884,
+        "run_mean_deg": 82.450009506318
+      },
+      "ring_PIP": {
+        "min_deg": 26.6759993245857,
+        "mean_deg": 26.6759993245857,
+        "max_deg": 26.6759993245857,
+        "run_mean_deg": 82.45001684575271
+      },
+      "pinky_PIP": {
+        "min_deg": 28.652005727278212,
+        "mean_deg": 28.652005727278212,
+        "max_deg": 28.652005727278212,
+        "run_mean_deg": 82.45000686771044
+      },
+      "index_DIP": {
+        "min_deg": 12.418411736351127,
+        "mean_deg": 12.418411736351127,
+        "max_deg": 12.418411736351127,
+        "run_mean_deg": 43.65000638322932
+      },
+      "middle_DIP": {
+        "min_deg": 14.440004164998092,
+        "mean_deg": 14.440004164998092,
+        "max_deg": 14.440004164998092,
+        "run_mean_deg": 43.650014181554695
+      },
+      "ring_DIP": {
+        "min_deg": 15.595196747125389,
+        "mean_deg": 15.595196747125389,
+        "max_deg": 15.595196747125389,
+        "run_mean_deg": 43.65000109415772
+      },
+      "pinky_DIP": {
+        "min_deg": 16.750401444865712,
+        "mean_deg": 16.750401444865712,
+        "max_deg": 16.750401444865712,
+        "run_mean_deg": 43.65001195265641
+      }
+    },
+    "R": {
+      "index_MCP": {
+        "min_deg": 15.686406872681532,
+        "mean_deg": 15.686406872681532,
+        "max_deg": 15.686406872681532,
+        "run_mean_deg": 63.050011485493584
+      },
+      "middle_MCP": {
+        "min_deg": 18.24001171078071,
+        "mean_deg": 18.24001171078071,
+        "max_deg": 18.24001171078071,
+        "run_mean_deg": 63.05001174248156
+      },
+      "ring_MCP": {
+        "min_deg": 19.699201845186735,
+        "mean_deg": 19.699201845186735,
+        "max_deg": 19.699201845186735,
+        "run_mean_deg": 63.050007961576625
+      },
+      "pinky_MCP": {
+        "min_deg": 21.158399007221764,
+        "mean_deg": 21.158399007221764,
+        "max_deg": 21.158399007221764,
+        "run_mean_deg": 63.050013511722184
+      },
+      "index_PIP": {
+        "min_deg": 21.242007396279007,
+        "mean_deg": 21.242007396279007,
+        "max_deg": 21.242007396279007,
+        "run_mean_deg": 82.450016593487
+      },
+      "middle_PIP": {
+        "min_deg": 24.700007929713067,
+        "mean_deg": 24.700007929713067,
+        "max_deg": 24.700007929713067,
+        "run_mean_deg": 82.45001464896094
+      },
+      "ring_PIP": {
+        "min_deg": 26.675997662433677,
+        "mean_deg": 26.675997662433677,
+        "max_deg": 26.675997662433677,
+        "run_mean_deg": 82.45001310483927
+      },
+      "pinky_PIP": {
+        "min_deg": 28.65200244078104,
+        "mean_deg": 28.65200244078104,
+        "max_deg": 28.65200244078104,
+        "run_mean_deg": 82.45001367301025
+      },
+      "index_DIP": {
+        "min_deg": 12.418411436281994,
+        "mean_deg": 12.418411436281994,
+        "max_deg": 12.418411436281994,
+        "run_mean_deg": 43.65001107162639
+      },
+      "middle_DIP": {
+        "min_deg": 14.440008865969778,
+        "mean_deg": 14.440008865969778,
+        "max_deg": 14.440008865969778,
+        "run_mean_deg": 43.65001089938586
+      },
+      "ring_DIP": {
+        "min_deg": 15.59519473187901,
+        "mean_deg": 15.59519473187901,
+        "max_deg": 15.59519473187901,
+        "run_mean_deg": 43.65001690410898
+      },
+      "pinky_DIP": {
+        "min_deg": 16.750395377802107,
+        "mean_deg": 16.750395377802107,
+        "max_deg": 16.750395377802107,
+        "run_mean_deg": 43.65000518554295
+      }
+    }
+  },
+  "failures": [],
+  "passed": true
+}

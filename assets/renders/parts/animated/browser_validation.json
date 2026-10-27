@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-27",
+  "method": "CUA 浏览器实播及进度条定帧核对",
+  "url": "http://127.0.0.1:8765/site/anatomical.html?clip=walk&view=three#exhibit",
+  "viewport": "1280 × 720",
+  "preview_sha256": "9c9324098fee64a178255ca608c5439704ce83a6d7df1402f03eb225105ddb5c",
+  "assetVersion": "9c9324098fee64a1",
+  "checks": [
+    {
+      "name": "60骨骼、16部件、8动作就绪",
+      "passed": true
+    },
+    {
+      "name": "行走手臂打开且保留窄步线",
+      "passed": true
+    },
+    {
+      "name": "奔跑肘部留空并保留握拳",
+      "passed": true
+    },
+    {
+      "name": "待机舒胸沉肩与呼吸循环",
+      "passed": true
+    },
+    {
+      "name": "跳跃蓄力、屈膝腾空和落地缓冲",
+      "passed": true
+    },
+    {
+      "name": "跳跃进度条定帧与完整角色构图",
+      "passed": true
+    },
+    {
+      "name": "控制台无错误",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "screenshots": [
+    "athletic_walk_browser.png",
+    "athletic_jump_browser.png"
+  ],
+  "numeric_report": "athletic_style.json"
+}

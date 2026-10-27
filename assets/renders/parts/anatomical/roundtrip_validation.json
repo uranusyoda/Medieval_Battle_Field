@@ -1,0 +1,477 @@
+{
+  "source": "templar_tpose_unarmored_parts.glb",
+  "output": "templar_tpose_unarmored_parts_rig_anatomical.glb",
+  "bones": 60,
+  "mesh_parts": 16,
+  "rest_geometry": {
+    "body_head": {
+      "vertices": 49886,
+      "max_rest_distance_m": 3.680503937175672e-07,
+      "rms_rest_distance_m": 1.3355118600582067e-07
+    },
+    "body_neck": {
+      "vertices": 18956,
+      "max_rest_distance_m": 3.6863701780021074e-07,
+      "rms_rest_distance_m": 1.3645549822719488e-07
+    },
+    "body_torso": {
+      "vertices": 115530,
+      "max_rest_distance_m": 4.883399356003792e-07,
+      "rms_rest_distance_m": 1.8111247964567027e-07
+    },
+    "body_hips": {
+      "vertices": 115825,
+      "max_rest_distance_m": 4.261836181740364e-07,
+      "rms_rest_distance_m": 1.1613457145318014e-07
+    },
+    "body_upper_arm.L": {
+      "vertices": 55393,
+      "max_rest_distance_m": 6.093098932069552e-07,
+      "rms_rest_distance_m": 3.6610565102152384e-07
+    },
+    "body_forearm.L": {
+      "vertices": 21359,
+      "max_rest_distance_m": 4.974064609086781e-07,
+      "rms_rest_distance_m": 3.556296413208079e-07
+    },
+    "body_hand.L": {
+      "vertices": 15121,
+      "max_rest_distance_m": 8.872136731952196e-07,
+      "rms_rest_distance_m": 4.03968857700268e-07
+    },
+    "body_upper_arm.R": {
+      "vertices": 50052,
+      "max_rest_distance_m": 7.234356189655955e-07,
+      "rms_rest_distance_m": 4.0021830119865765e-07
+    },
+    "body_forearm.R": {
+      "vertices": 22090,
+      "max_rest_distance_m": 4.917383193969727e-07,
+      "rms_rest_distance_m": 1.802843276641358e-07
+    },
+    "body_hand.R": {
+      "vertices": 14767,
+      "max_rest_distance_m": 7.396741921184002e-07,
+      "rms_rest_distance_m": 3.076900919649351e-07
+    },
+    "body_thigh.L": {
+      "vertices": 63409,
+      "max_rest_distance_m": 6.317367819974606e-07,
+      "rms_rest_distance_m": 3.7619834405123683e-07
+    },
+    "body_shin.L": {
+      "vertices": 56688,
+      "max_rest_distance_m": 9.003803711493674e-07,
+      "rms_rest_distance_m": 5.625202646273572e-07
+    },
+    "body_foot.L": {
+      "vertices": 20985,
+      "max_rest_distance_m": 9.598791166354204e-07,
+      "rms_rest_distance_m": 5.692891023129855e-07
+    },
+    "body_thigh.R": {
+      "vertices": 59432,
+      "max_rest_distance_m": 6.672861445622402e-07,
+      "rms_rest_distance_m": 3.8454913895484344e-07
+    },
+    "body_shin.R": {
+      "vertices": 54476,
+      "max_rest_distance_m": 9.938360108208144e-07,
+      "rms_rest_distance_m": 5.973307494184409e-07
+    },
+    "body_foot.R": {
+      "vertices": 21383,
+      "max_rest_distance_m": 1.0769778100438998e-06,
+      "rms_rest_distance_m": 6.288048569025502e-07
+    }
+  },
+  "weights": {
+    "body_head": {
+      "weight_sum_min": 0.9999999422580004,
+      "weight_sum_max": 1.0000000447034836,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    },
+    "body_neck": {
+      "weight_sum_min": 0.9999999105930328,
+      "weight_sum_max": 1.0000000894069672,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_torso": {
+      "weight_sum_min": 0.9999998845160007,
+      "weight_sum_max": 1.0000000894069672,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_hips": {
+      "weight_sum_min": 0.9999999068677425,
+      "weight_sum_max": 1.000000074505806,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_upper_arm.L": {
+      "weight_sum_min": 0.9999999096617103,
+      "weight_sum_max": 1.0000000596046448,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_forearm.L": {
+      "weight_sum_min": 0.9999999115243554,
+      "weight_sum_max": 1.0000000353902578,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    },
+    "body_hand.L": {
+      "weight_sum_min": 0.9999998659477569,
+      "weight_sum_max": 1.0000000894069672,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_upper_arm.R": {
+      "weight_sum_min": 0.9999999096617103,
+      "weight_sum_max": 1.0000000596046448,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_forearm.R": {
+      "weight_sum_min": 0.9999999115243554,
+      "weight_sum_max": 1.0000000353902578,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    },
+    "body_hand.R": {
+      "weight_sum_min": 0.9999998826533556,
+      "weight_sum_max": 1.0000000894069672,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_thigh.L": {
+      "weight_sum_min": 0.9999999110586941,
+      "weight_sum_max": 1.000000074505806,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_shin.L": {
+      "weight_sum_min": 0.9999999115243554,
+      "weight_sum_max": 1.0000000409781933,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    },
+    "body_foot.L": {
+      "weight_sum_min": 0.9999999068677425,
+      "weight_sum_max": 1.000000074505806,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    },
+    "body_thigh.R": {
+      "weight_sum_min": 0.9999999105930328,
+      "weight_sum_max": 1.000000074505806,
+      "max_influences": 4,
+      "unweighted_vertices": 0
+    },
+    "body_shin.R": {
+      "weight_sum_min": 0.9999999115243554,
+      "weight_sum_max": 1.000000037252903,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    },
+    "body_foot.R": {
+      "weight_sum_min": 0.9999999068677425,
+      "weight_sum_max": 1.000000074505806,
+      "max_influences": 3,
+      "unweighted_vertices": 0
+    }
+  },
+  "anatomy": {
+    "L": {
+      "thumb": {
+        "segments": [
+          "thumb.metacarpal.L",
+          "thumb.01.L",
+          "thumb.02.L"
+        ],
+        "lengths_m": [
+          0.030099731287984047,
+          0.03132269063372967,
+          0.02281538916730792
+        ],
+        "max_joint_location_error_m": 7.93844336793393e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "index": {
+        "segments": [
+          "index.metacarpal.L",
+          "index.01.L",
+          "index.02.L",
+          "index.03.L"
+        ],
+        "lengths_m": [
+          0.06465323370598985,
+          0.04104977247762151,
+          0.03526857385046023,
+          0.02440398692352908
+        ],
+        "max_joint_location_error_m": 6.519635086975488e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "middle": {
+        "segments": [
+          "middle.metacarpal.L",
+          "middle.01.L",
+          "middle.02.L",
+          "middle.03.L"
+        ],
+        "lengths_m": [
+          0.07101757755431108,
+          0.04701347972018128,
+          0.03301521688706851,
+          0.023012513493841657
+        ],
+        "max_joint_location_error_m": 8.736166083124232e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "ring": {
+        "segments": [
+          "ring.metacarpal.L",
+          "ring.01.L",
+          "ring.02.L",
+          "ring.03.L"
+        ],
+        "lengths_m": [
+          0.06775904175336937,
+          0.04404681565813726,
+          0.03226048864931995,
+          0.024188564879404437
+        ],
+        "max_joint_location_error_m": 8.362891172528158e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "pinky": {
+        "segments": [
+          "pinky.metacarpal.L",
+          "pinky.01.L",
+          "pinky.02.L",
+          "pinky.03.L"
+        ],
+        "lengths_m": [
+          0.06049042678281389,
+          0.03339760054539724,
+          0.028992758309523425,
+          0.018111247238010976
+        ],
+        "max_joint_location_error_m": 8.525144388437173e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      }
+    },
+    "R": {
+      "thumb": {
+        "segments": [
+          "thumb.metacarpal.R",
+          "thumb.01.R",
+          "thumb.02.R"
+        ],
+        "lengths_m": [
+          0.0298665596142831,
+          0.03141122615729678,
+          0.022840979613694256
+        ],
+        "max_joint_location_error_m": 8.440850272476797e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "index": {
+        "segments": [
+          "index.metacarpal.R",
+          "index.01.R",
+          "index.02.R",
+          "index.03.R"
+        ],
+        "lengths_m": [
+          0.06464818452211965,
+          0.04104879215320185,
+          0.035269065102375985,
+          0.02432396624003144
+        ],
+        "max_joint_location_error_m": 8.530442029328244e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "middle": {
+        "segments": [
+          "middle.metacarpal.R",
+          "middle.01.R",
+          "middle.02.R",
+          "middle.03.R"
+        ],
+        "lengths_m": [
+          0.07101512927945595,
+          0.04701495504474477,
+          0.033015236618788156,
+          0.023015011138177076
+        ],
+        "max_joint_location_error_m": 6.625459383778725e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "ring": {
+        "segments": [
+          "ring.metacarpal.R",
+          "ring.01.R",
+          "ring.02.R",
+          "ring.03.R"
+        ],
+        "lengths_m": [
+          0.06775405621344263,
+          0.044056676106195174,
+          0.03227005753140234,
+          0.02423177691052557
+        ],
+        "max_joint_location_error_m": 7.320821084321432e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      },
+      "pinky": {
+        "segments": [
+          "pinky.metacarpal.R",
+          "pinky.01.R",
+          "pinky.02.R",
+          "pinky.03.R"
+        ],
+        "lengths_m": [
+          0.06048569940518981,
+          0.03339092229601902,
+          0.028941646394036076,
+          0.01811606530235366
+        ],
+        "max_joint_location_error_m": 8.155916011724641e-07,
+        "gltf_leaf_display_tail_is_inferred": true
+      }
+    }
+  },
+  "index_isolation": {
+    "L": {
+      "thumb": {
+        "tip_vertices": 108,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      },
+      "index": {
+        "tip_vertices": 100,
+        "max_motion_m": 0.05865948194194537,
+        "mean_motion_m": 0.057399157083734054,
+        "mean_delta_z_m": -0.05480404853820801
+      },
+      "middle": {
+        "tip_vertices": 151,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      },
+      "ring": {
+        "tip_vertices": 97,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      },
+      "pinky": {
+        "tip_vertices": 175,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      }
+    },
+    "R": {
+      "thumb": {
+        "tip_vertices": 115,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      },
+      "index": {
+        "tip_vertices": 107,
+        "max_motion_m": 0.05863090559032396,
+        "mean_motion_m": 0.05753522083427796,
+        "mean_delta_z_m": -0.05483621525987287
+      },
+      "middle": {
+        "tip_vertices": 165,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      },
+      "ring": {
+        "tip_vertices": 113,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      },
+      "pinky": {
+        "tip_vertices": 166,
+        "max_motion_m": 0.0,
+        "mean_motion_m": 0.0,
+        "mean_delta_z_m": 0.0
+      }
+    }
+  },
+  "seams_rest": {
+    "shared_position_groups": 6228,
+    "max_gap_m": 4.770699320310986e-07,
+    "groups_above_0_1mm": 0
+  },
+  "thumb_opposition": {
+    "L": {
+      "tip_rest_m": [
+        0.8199045332493605,
+        -0.032311220894809124,
+        1.4506830948370475
+      ],
+      "tip_opposed_m": [
+        0.8383457920065632,
+        0.03859378769993782,
+        1.4228003687328763
+      ],
+      "tip_motion_m": 0.07839034815187054,
+      "tip_delta_m": [
+        0.018441258757202705,
+        0.07090500859474694,
+        -0.027882726104171196
+      ]
+    },
+    "R": {
+      "tip_rest_m": [
+        -0.8196125165275906,
+        -0.03280143985605758,
+        1.4517068116561227
+      ],
+      "tip_opposed_m": [
+        -0.838580788736758,
+        0.03804965090492497,
+        1.4225976415302442
+      ],
+      "tip_motion_m": 0.07891144529179149,
+      "tip_delta_m": [
+        -0.018968272209167414,
+        0.07085109076098256,
+        -0.029109170125878547
+      ]
+    }
+  },
+  "seams_grip": {
+    "shared_position_groups": 6228,
+    "max_gap_m": 4.770699320310986e-07,
+    "groups_above_0_1mm": 0
+  },
+  "seams_wrist": {
+    "shared_position_groups": 6228,
+    "max_gap_m": 4.770699320310986e-07,
+    "groups_above_0_1mm": 0
+  },
+  "seams_elbows": {
+    "shared_position_groups": 6228,
+    "max_gap_m": 4.3039599400866564e-07,
+    "groups_above_0_1mm": 0
+  },
+  "seams_knee": {
+    "shared_position_groups": 6228,
+    "max_gap_m": 4.22323725246441e-07,
+    "groups_above_0_1mm": 0
+  }
+}

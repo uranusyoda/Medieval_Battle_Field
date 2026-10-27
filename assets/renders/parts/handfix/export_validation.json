@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "meshes": 16,
+  "joints": 55,
+  "geometry_uv_normals_indices": "exactly unchanged",
+  "embedded_textures": "byte-identical",
+  "unrelated_body_weights": "unchanged within 1e-6",
+  "details": {
+    "body_foot.L": {
+      "vertices": 20985,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_foot.R": {
+      "vertices": 21383,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_forearm.L": {
+      "vertices": 21359,
+      "max_weight_sum_error": 0.0
+    },
+    "body_forearm.R": {
+      "vertices": 22090,
+      "max_weight_sum_error": 0.0
+    },
+    "body_hand.L": {
+      "vertices": 15121,
+      "max_weight_sum_error": 1.7881393432617188e-07
+    },
+    "body_hand.R": {
+      "vertices": 14767,
+      "max_weight_sum_error": 1.7881393432617188e-07
+    },
+    "body_head": {
+      "vertices": 49886,
+      "max_weight_sum_error": 0.0
+    },
+    "body_hips": {
+      "vertices": 115825,
+      "max_weight_sum_error": 0.0
+    },
+    "body_neck": {
+      "vertices": 18956,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_shin.L": {
+      "vertices": 56688,
+      "max_weight_sum_error": 5.960464477539063e-08
+    },
+    "body_shin.R": {
+      "vertices": 54476,
+      "max_weight_sum_error": 5.960464477539063e-08
+    },
+    "body_thigh.L": {
+      "vertices": 63409,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_thigh.R": {
+      "vertices": 59432,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_torso": {
+      "vertices": 115530,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_upper_arm.L": {
+      "vertices": 55393,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    },
+    "body_upper_arm.R": {
+      "vertices": 50052,
+      "max_weight_sum_error": 1.1920928955078125e-07
+    }
+  }
+}

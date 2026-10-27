@@ -1,0 +1,114 @@
+{
+  "model": "templar_anatomical_animated.glb",
+  "preview": "templar_anatomical_animated_preview.glb",
+  "source": "templar_anatomical_animated.blend",
+  "assetVersion": "4f95dd45ee60c875",
+  "bones": 60,
+  "meshes": 16,
+  "fps": 60,
+  "preview_triangles": 147981,
+  "clips": [
+    {
+      "id": "idle",
+      "label": "呼吸待机",
+      "frames": 180,
+      "loop": true,
+      "focus": "body",
+      "description": "挺拔松弛的骑士站姿：舒胸沉肩、缓慢呼吸，双臂自然悬垂。",
+      "duration": 3.0
+    },
+    {
+      "id": "walk",
+      "label": "行走",
+      "frames": 68,
+      "loop": true,
+      "focus": "body",
+      "description": "从容骑士步态：胸肩挺拔，双臂留出自然空间，松弛摆动。",
+      "duration": 1.1333333333333333
+    },
+    {
+      "id": "run",
+      "label": "奔跑",
+      "frames": 46,
+      "loop": true,
+      "focus": "body",
+      "description": "力量奔跑：沉肩开臂、轻松握拳，摆臂与提膝协调。",
+      "duration": 0.7666666666666667
+    },
+    {
+      "id": "jump",
+      "label": "跳跃",
+      "frames": 120,
+      "loop": false,
+      "focus": "body",
+      "description": "弹性起跳：快速蹬地、屈膝腾空，前脚掌落地后缓冲回弹。",
+      "duration": 2.0
+    },
+    {
+      "id": "crouch",
+      "label": "忍者低姿",
+      "frames": 180,
+      "loop": true,
+      "focus": "body",
+      "description": "前后错步压低重心，前手探出、后手侧收，警觉潜行后站起。",
+      "duration": 3.0
+    },
+    {
+      "id": "grip",
+      "label": "握拳与松开",
+      "frames": 180,
+      "loop": true,
+      "focus": "hand",
+      "description": "四指逐节屈曲，拇指对掌，随后放松张开。",
+      "duration": 3.0
+    },
+    {
+      "id": "finger_wave",
+      "label": "逐指弯曲",
+      "frames": 300,
+      "loop": true,
+      "focus": "hand",
+      "description": "食指、中指、无名指、小指与拇指依次独立活动。",
+      "duration": 5.0
+    },
+    {
+      "id": "wrist",
+      "label": "转腕与伸屈",
+      "frames": 180,
+      "loop": true,
+      "focus": "hand",
+      "description": "手腕屈伸与侧偏，检查掌根和袖口过渡。",
+      "duration": 3.0
+    }
+  ],
+  "motionSources": {
+    "walk": {
+      "source": "CMU Subject 35",
+      "take": "35_01",
+      "raw_fps": 120.0,
+      "source_start": 124,
+      "source_end": 259,
+      "stride_duration": 1.125,
+      "period_fit_harmonics": 8,
+      "matching_pose_rms_m": 0.006029382215647939,
+      "matching_velocity_rms_m_s": 0.09124186126048921,
+      "source_leg_length_m": 0.8732121928038215,
+      "minimum_step_width_m": 0.1007178590441066,
+      "mean_step_width_m": 0.12339046419140458
+    },
+    "run": {
+      "source": "CMU Subject 35",
+      "take": "35_18",
+      "raw_fps": 120.0,
+      "source_start": 70,
+      "source_end": 163,
+      "stride_duration": 0.775,
+      "period_fit_harmonics": 7,
+      "matching_pose_rms_m": 0.006446789115454001,
+      "matching_velocity_rms_m_s": 0.11265830505843517,
+      "source_leg_length_m": 0.8732121928038215,
+      "minimum_step_width_m": 0.06135495389144591,
+      "mean_step_width_m": 0.09824609572072537
+    }
+  }
+}

@@ -41,6 +41,15 @@ const MODELS = [
     expect: '20 骨 · 0 动作',
     note: '绑骨版：由 templar_tpose_unarmored 复制而来，只绑大关节——躯干 / 头 / 四肢共 20 骨，手当刚体整体（每边一根 hand 骨，手指不细分、几何不动）；动作尚未制作。',
   },
+  {
+    id: 'templar_tpose_unarmored_parts_rig_handfix',
+    title: 'templar_tpose_unarmored_parts_rig_handfix',
+    variant: '分块 · 手部修订版',
+    url: '../assets/models/characters/parts/templar_tpose_unarmored_parts_rig_handfix.glb',
+    rig: 'rigged',
+    expect: '55 骨 · 16 部件 · 0 动作',
+    note: '手部修订版：双手新增 30 根指骨，五指各 3 节；重新分配手腕、掌部与指根权重。16 个分块共用 55 骨骨架，可开启「骨架」查看指骨；GLB 保持 T-pose，动作尚未制作。',
+  },
 ];
 
 

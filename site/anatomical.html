@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eae5da">
+  <title>圣殿骑士 · 动作与骨骼展厅</title>
+  <link rel="stylesheet" href="./anatomical.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}</script>
+</head>
+<body>
+  <header class="masthead wrap">
+    <a class="wordmark" href="#top" aria-label="圣殿骑士动作展厅首页"><span class="cross" aria-hidden="true">✠</span><span>圣殿骑士团<small>TEMPLAR / CHARACTER STUDY</small></span></a>
+    <nav aria-label="页面导航"><a href="#exhibit">动作展厅</a><a href="#gallery">绑定图鉴</a><a href="#files">模型文件 <span>↗</span></a></nav>
+  </header>
+  <main id="top">
+    <section class="intro wrap">
+      <div><p class="eyebrow">MOTION ARCHIVE <span>—</span> VOL. 01</p><h1>让骑士，动起来。<span>骨骼、步态与每一次屈指。</span></h1></div>
+      <div class="intro-aside"><p>从全身运动到指尖细节。<br>在同一套人体骨架上，查看每一个动作。</p><dl class="specs"><div><dt>骨骼</dt><dd id="count-bones">60</dd></div><div><dt>动作</dt><dd id="count-clips">08</dd></div><div><dt>部件</dt><dd id="count-meshes">16</dd></div></dl></div>
+    </section>
+    <section class="exhibit wrap" id="exhibit" aria-label="交互式动画查看器">
+      <div class="exhibit-heading"><h2><span>01 /</span> 动作展厅</h2><p><span class="status-dot"></span><span id="asset-status">正在准备展品</span></p></div>
+      <div class="viewer-layout">
+        <aside class="action-rail"><div class="rail-caption"><span>选择动作</span><span>01—08</span></div><div id="clip-list" role="tablist" aria-label="动画动作"></div><div class="rail-note"><span class="cross" aria-hidden="true">✠</span><p>四指各三节，拇指两节。<br>独立掌骨，让对掌与握持更自然。</p></div></aside>
+        <div class="viewer-main">
+          <div class="stage-toolbar"><div class="view-tabs" role="group" aria-label="视角"><button data-camera="three" class="active">全身</button><button data-camera="front">正面</button><button data-camera="side">侧面</button><button data-camera="handL">左手</button><button data-camera="handR">右手</button></div><div class="display-toggles"><button id="btn-skeleton" aria-pressed="false" title="显示骨架（S）">骨架</button><button id="btn-grid" aria-pressed="false" title="全部动作（G）">全部同屏 <span>▦</span></button></div></div>
+          <div class="stage" id="stage"><canvas id="motion-canvas" aria-label="三维角色动画，可拖动旋转、滚轮缩放"></canvas><div class="stage-kicker" id="stage-kicker">LIVE / ANIMATION STUDY</div><div class="stage-label" id="stage-label"><span id="active-no">01</span><div><h3 id="active-label">待机</h3><p id="active-en">IDLE</p></div></div><div id="grid-labels" hidden></div><div class="stage-help" id="stage-help">拖动旋转 · 滚轮缩放</div><div id="loading" class="stage-message" role="status"><div class="loading-mark">✠</div><strong>正在载入骑士</strong><span id="loading-detail">准备骨骼与动作数据…</span></div><div id="error" class="stage-message error-message" hidden role="alert"><strong>暂时无法打开三维展品</strong><p id="error-detail"></p><button id="btn-retry">重新载入</button><a href="#gallery">先看绑定效果图 ↓</a></div></div>
+          <div class="transport"><button id="btn-play" class="play-button" aria-label="暂停" disabled>Ⅱ</button><button id="btn-replay" class="replay-button" aria-label="重新播放" title="从头播放" disabled>↺</button><div class="timeline"><div class="time-label"><span id="time-current">0.00s</span><span id="time-duration">—</span></div><input type="range" id="scrub" min="0" max="1000" value="0" aria-label="动画进度" disabled></div><select id="speed" aria-label="播放速度" disabled><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><button id="btn-loop" class="loop-button" aria-pressed="true" title="循环播放" disabled>循环 ↻</button></div>
+          <div class="clip-caption"><p id="clip-description">自然站姿与轻微呼吸，查看整体骨架的稳定性。</p><span id="clip-meta">—</span></div>
+        </div>
+      </div>
+      <p class="viewer-footnote"><span>空格 播放 / 暂停　·　S 骨架　·　G 同屏　·　1—8 切换动作</span><span>动作来自模型内置动画 · 本地资源，无需联网</span></p>
+    </section>
+    <section id="gallery" class="gallery-section wrap">
+      <div class="section-top"><div><p class="eyebrow">A CLOSER LOOK</p><h2><span>02 /</span> 绑定图鉴</h2></div><p>从静止姿态到握持，仔细看手部结构。<br>点击图片，查看原尺寸。</p></div>
+      <div class="gallery-filters" role="group" aria-label="图片分类"><button class="active" data-filter="all">全部 <sup>09</sup></button><button data-filter="body">全身</button><button data-filter="skeleton">手部骨架</button><button data-filter="grip">屈指与对掌</button><button data-filter="rest">静止手型</button></div>
+      <div id="gallery-grid" class="gallery-grid">
+        <a class="gallery-item" data-type="body" href="../assets/renders/parts/anatomical/fullbody_front.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/fullbody_front.png" alt="全身静止姿态"></div><div class="gallery-caption"><strong>全身静止姿态</strong><small>BODY / REST</small></div></a>
+        <a class="gallery-item" data-type="skeleton" href="../assets/renders/parts/anatomical/skeleton_L.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/skeleton_L.png" alt="左手 · 掌骨与指骨"></div><div class="gallery-caption"><strong>左手 · 掌骨与指骨</strong><small>LEFT / SKELETON</small></div></a>
+        <a class="gallery-item" data-type="skeleton" href="../assets/renders/parts/anatomical/skeleton_R.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/skeleton_R.png" alt="右手 · 掌骨与指骨"></div><div class="gallery-caption"><strong>右手 · 掌骨与指骨</strong><small>RIGHT / SKELETON</small></div></a>
+        <a class="gallery-item" data-type="grip" href="../assets/renders/parts/anatomical/grip_L_palm.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/grip_L_palm.png" alt="左手 · 掌心握持"></div><div class="gallery-caption"><strong>左手 · 掌心握持</strong><small>LEFT / PALM</small></div></a>
+        <a class="gallery-item" data-type="grip" href="../assets/renders/parts/anatomical/grip_R_palm.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/grip_R_palm.png" alt="右手 · 掌心握持"></div><div class="gallery-caption"><strong>右手 · 掌心握持</strong><small>RIGHT / PALM</small></div></a>
+        <a class="gallery-item" data-type="grip" href="../assets/renders/parts/anatomical/grip_L_back.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/grip_L_back.png" alt="左手 · 手背屈指"></div><div class="gallery-caption"><strong>左手 · 手背屈指</strong><small>LEFT / DORSUM</small></div></a>
+        <a class="gallery-item" data-type="grip" href="../assets/renders/parts/anatomical/grip_R_back.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/grip_R_back.png" alt="右手 · 手背屈指"></div><div class="gallery-caption"><strong>右手 · 手背屈指</strong><small>RIGHT / DORSUM</small></div></a>
+        <a class="gallery-item" data-type="rest" href="../assets/renders/parts/anatomical/rest_L.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/rest_L.png" alt="左手 · 静止手型"></div><div class="gallery-caption"><strong>左手 · 静止手型</strong><small>LEFT / REST</small></div></a>
+        <a class="gallery-item" data-type="rest" href="../assets/renders/parts/anatomical/rest_R.png"><div class="gallery-image"><img loading="lazy" src="../assets/renders/parts/anatomical/rest_R.png" alt="右手 · 静止手型"></div><div class="gallery-caption"><strong>右手 · 静止手型</strong><small>RIGHT / REST</small></div></a>
+      </div>
+    </section>
+    <section class="files-section" id="files"><div class="wrap files-inner"><div><p class="eyebrow">CONTINUE THE STUDY</p><h2>把动作，带进你的场景。</h2><p>完整模型用于继续制作，轻量预览版用于快速查看。<br>Blender 源文件保留骨骼与全部动作，方便进一步调整。</p></div><div class="download-list"><a href="../assets/models/characters/parts/templar_anatomical_animated.blend" download><span><small>01 / SOURCE</small>Blender 动画源文件</span><b>↓</b></a><a href="../assets/models/characters/parts/templar_anatomical_animated.glb" download><span><small>02 / FULL ASSET</small>完整动画 GLB</span><b>↓</b></a><a href="../assets/models/characters/parts/templar_anatomical_animated_preview.glb" download><span><small>03 / WEB PREVIEW</small>轻量预览 GLB</span><b>↓</b></a><a href="../docs/03_查看器/绑骨效果索引.md"><span><small>04 / DOCUMENTATION</small>绑定效果索引文档</span><b>↗</b></a></div></div></section>
+  </main>
+  <footer class="wrap footer"><span>✠　圣殿骑士团 · 角色动作档案</span><span>60 BONES / HUMAN HAND RIG</span><a href="#top">回到顶部 ↑</a></footer>
+  <dialog id="lightbox"><button class="lightbox-close" aria-label="关闭图片">关闭 ×</button><img id="lightbox-image" alt=""><div><p id="lightbox-caption"></p><a id="lightbox-original" target="_blank" rel="noopener">打开原图 ↗</a></div></dialog>
+  <noscript><p class="noscript">请启用 JavaScript 查看三维动画。绑定图片仍可通过<a href="../docs/03_查看器/绑骨效果索引.md">索引文档</a>查看。</p></noscript>
+  <script>if(location.protocol==='file:'){document.getElementById('loading').hidden=true;document.getElementById('error').hidden=false;document.getElementById('asset-status').textContent='请通过本地服务查看动画';document.getElementById('error-detail').textContent='在项目目录运行 ./tools/serve_site.sh，然后访问\nhttp://127.0.0.1:8765/site/anatomical.html\n下方绑定图片可直接查看。';document.getElementById('btn-retry').onclick=function(){location.href='http://127.0.0.1:8765/site/anatomical.html';};}</script>
+  <script type="module" src="./anatomical.js"></script>
+</body>
+</html>

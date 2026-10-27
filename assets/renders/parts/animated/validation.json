@@ -1,0 +1,1080 @@
+{
+  "assets": {
+    "full_sha256": "d4a9b84d0938ef941c1c9a93261887350f54597fb4004aff50a51e5136664c77",
+    "preview_sha256": "4f95dd45ee60c875a11405fc52b9a2b4e7f25dd357e3da65fc8b1c8983197dd0",
+    "original_geometry_normals_uv_indices_exact": true,
+    "original_materials_textures_exact": true,
+    "base_binary_prefix_exact": true,
+    "bones": 60,
+    "mesh_parts": 16,
+    "vertices": 755352,
+    "triangles": 1464270,
+    "preview_triangles": 147981,
+    "max_weight_sum_error": 1.1920928955078125e-07,
+    "max_skin_influences": 4,
+    "preview_max_weight_sum_error": 1.7881393432617188e-07,
+    "preview_max_skin_influences": 4
+  },
+  "full_clips": {
+    "idle": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "hips",
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "neck",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    },
+    "walk": {
+      "duration_s": 1.1333333253860474,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "hips",
+        "neck",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "toe.L",
+        "toe.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 69
+    },
+    "run": {
+      "duration_s": 0.7666666507720947,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "hips",
+        "neck",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "toe.L",
+        "toe.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 47
+    },
+    "jump": {
+      "duration_s": 2.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "hips",
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "neck",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": false,
+      "max_loop_endpoint_error": 9.803033141572053e-05,
+      "key_count_max": 121
+    },
+    "crouch": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "hips",
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "neck",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    },
+    "grip": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    },
+    "finger_wave": {
+      "duration_s": 5.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 301
+    },
+    "wrist": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "hand.L",
+        "hand.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    }
+  },
+  "preview_clips": {
+    "idle": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "hips",
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "neck",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    },
+    "walk": {
+      "duration_s": 1.1333333253860474,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "hips",
+        "neck",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "toe.L",
+        "toe.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 69
+    },
+    "run": {
+      "duration_s": 0.7666666507720947,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "hips",
+        "neck",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "toe.L",
+        "toe.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 47
+    },
+    "jump": {
+      "duration_s": 2.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "hips",
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "neck",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": false,
+      "max_loop_endpoint_error": 9.803033141572053e-05,
+      "key_count_max": 121
+    },
+    "crouch": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "hips",
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "neck",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "root",
+        "shin.L",
+        "shin.R",
+        "shoulder.L",
+        "shoulder.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    },
+    "grip": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    },
+    "finger_wave": {
+      "duration_s": 5.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "index.01.L",
+        "index.01.R",
+        "index.02.L",
+        "index.02.R",
+        "index.03.L",
+        "index.03.R",
+        "middle.01.L",
+        "middle.01.R",
+        "middle.02.L",
+        "middle.02.R",
+        "middle.03.L",
+        "middle.03.R",
+        "pinky.01.L",
+        "pinky.01.R",
+        "pinky.02.L",
+        "pinky.02.R",
+        "pinky.03.L",
+        "pinky.03.R",
+        "pinky.metacarpal.L",
+        "pinky.metacarpal.R",
+        "ring.01.L",
+        "ring.01.R",
+        "ring.02.L",
+        "ring.02.R",
+        "ring.03.L",
+        "ring.03.R",
+        "ring.metacarpal.L",
+        "ring.metacarpal.R",
+        "thumb.01.L",
+        "thumb.01.R",
+        "thumb.02.L",
+        "thumb.02.R",
+        "thumb.metacarpal.L",
+        "thumb.metacarpal.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 301
+    },
+    "wrist": {
+      "duration_s": 3.0,
+      "start_time_s": 0.0,
+      "channels": 180,
+      "moving_joints": [
+        "hand.L",
+        "hand.R"
+      ],
+      "loop": true,
+      "max_loop_endpoint_error": 0.0,
+      "key_count_max": 181
+    }
+  },
+  "authoring_poses": {
+    "idle": {
+      "frame_start": 0.0,
+      "frame_end": 180.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": -2.9802322387695312e-08,
+          "max_seam_gap_m": 1.228781230931777e-07
+        },
+        {
+          "frame": 22.5,
+          "lowest_foot_m": -5.21540641784668e-08,
+          "max_seam_gap_m": 1.2013700229374393e-07
+        },
+        {
+          "frame": 45.0,
+          "lowest_foot_m": -2.9802322387695312e-08,
+          "max_seam_gap_m": 1.201947465904182e-07
+        },
+        {
+          "frame": 90.0,
+          "lowest_foot_m": 1.4901161193847656e-08,
+          "max_seam_gap_m": 1.201947465904182e-07
+        },
+        {
+          "frame": 135.0,
+          "lowest_foot_m": -1.4901161193847656e-08,
+          "max_seam_gap_m": 1.2293457984924316e-07
+        },
+        {
+          "frame": 157.5,
+          "lowest_foot_m": 1.4156103134155273e-07,
+          "max_seam_gap_m": 1.2013700229374393e-07
+        },
+        {
+          "frame": 180.0,
+          "lowest_foot_m": -2.9802322387695312e-08,
+          "max_seam_gap_m": 1.228781230931777e-07
+        }
+      ],
+      "lowest_foot_m": -5.21540641784668e-08,
+      "highest_lowest_foot_m": 1.4156103134155273e-07,
+      "max_seam_gap_m": 1.2293457984924316e-07
+    },
+    "walk": {
+      "frame_start": 0.0,
+      "frame_end": 68.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": 0.004820376634597778,
+          "max_seam_gap_m": 1.2014061212539673e-07
+        },
+        {
+          "frame": 8.5,
+          "lowest_foot_m": 0.0053514838218688965,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 17.0,
+          "lowest_foot_m": 0.006448328495025635,
+          "max_seam_gap_m": 1.201947465904182e-07
+        },
+        {
+          "frame": 34.0,
+          "lowest_foot_m": 0.006640136241912842,
+          "max_seam_gap_m": 1.2036781326982014e-07
+        },
+        {
+          "frame": 51.0,
+          "lowest_foot_m": 0.0040623098611831665,
+          "max_seam_gap_m": 1.2013700229374393e-07
+        },
+        {
+          "frame": 59.5,
+          "lowest_foot_m": 0.002875015139579773,
+          "max_seam_gap_m": 1.201947465904182e-07
+        },
+        {
+          "frame": 68.0,
+          "lowest_foot_m": 0.004820376634597778,
+          "max_seam_gap_m": 1.2014061212539673e-07
+        }
+      ],
+      "lowest_foot_m": 0.002875015139579773,
+      "highest_lowest_foot_m": 0.006640136241912842,
+      "max_seam_gap_m": 1.2036781326982014e-07
+    },
+    "run": {
+      "frame_start": 0.0,
+      "frame_end": 46.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": 0.051782604306936264,
+          "max_seam_gap_m": 1.2013700229374393e-07
+        },
+        {
+          "frame": 5.75,
+          "lowest_foot_m": 0.03605257719755173,
+          "max_seam_gap_m": 1.2310379476739693e-07
+        },
+        {
+          "frame": 11.5,
+          "lowest_foot_m": 0.06644789129495621,
+          "max_seam_gap_m": 1.2202813740193247e-07
+        },
+        {
+          "frame": 23.0,
+          "lowest_foot_m": 0.04260540381073952,
+          "max_seam_gap_m": 1.2338530392705795e-07
+        },
+        {
+          "frame": 34.5,
+          "lowest_foot_m": 0.06877446919679642,
+          "max_seam_gap_m": 1.201947465904182e-07
+        },
+        {
+          "frame": 40.25,
+          "lowest_foot_m": 0.012627869844436646,
+          "max_seam_gap_m": 1.1944189326376765e-07
+        },
+        {
+          "frame": 46.0,
+          "lowest_foot_m": 0.051782604306936264,
+          "max_seam_gap_m": 1.2013700229374393e-07
+        }
+      ],
+      "lowest_foot_m": 0.012627869844436646,
+      "highest_lowest_foot_m": 0.06877446919679642,
+      "max_seam_gap_m": 1.2338530392705795e-07
+    },
+    "jump": {
+      "frame_start": 0.0,
+      "frame_end": 120.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": 0.0,
+          "max_seam_gap_m": 1.2731557704981462e-07
+        },
+        {
+          "frame": 15.0,
+          "lowest_foot_m": 0.0,
+          "max_seam_gap_m": 1.3333208984265686e-07
+        },
+        {
+          "frame": 30.0,
+          "lowest_foot_m": 0.15594559907913208,
+          "max_seam_gap_m": 1.2310379476739693e-07
+        },
+        {
+          "frame": 60.0,
+          "lowest_foot_m": 0.335105836391449,
+          "max_seam_gap_m": 1.2157238179505409e-07
+        },
+        {
+          "frame": 90.0,
+          "lowest_foot_m": -2.2351741790771484e-08,
+          "max_seam_gap_m": 1.3333208984265686e-07
+        },
+        {
+          "frame": 105.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.2013700229374393e-07
+        },
+        {
+          "frame": 120.0,
+          "lowest_foot_m": 0.0,
+          "max_seam_gap_m": 1.2731557704981462e-07
+        }
+      ],
+      "lowest_foot_m": -2.2351741790771484e-08,
+      "highest_lowest_foot_m": 0.335105836391449,
+      "max_seam_gap_m": 1.3333208984265686e-07
+    },
+    "crouch": {
+      "frame_start": 0.0,
+      "frame_end": 180.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": -2.2351741790771484e-08,
+          "max_seam_gap_m": 1.1944189326376765e-07
+        },
+        {
+          "frame": 22.5,
+          "lowest_foot_m": -6.444007158279419e-05,
+          "max_seam_gap_m": 1.201947465904182e-07
+        },
+        {
+          "frame": 45.0,
+          "lowest_foot_m": 2.2351741790771484e-08,
+          "max_seam_gap_m": 1.2953086682195745e-07
+        },
+        {
+          "frame": 90.0,
+          "lowest_foot_m": -2.9802322387695312e-08,
+          "max_seam_gap_m": 1.3863886941916045e-07
+        },
+        {
+          "frame": 135.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.3943737203041392e-07
+        },
+        {
+          "frame": 157.5,
+          "lowest_foot_m": -5.0067901611328125e-05,
+          "max_seam_gap_m": 1.2065570608304177e-07
+        },
+        {
+          "frame": 180.0,
+          "lowest_foot_m": -2.2351741790771484e-08,
+          "max_seam_gap_m": 1.1944189326376765e-07
+        }
+      ],
+      "lowest_foot_m": -6.444007158279419e-05,
+      "highest_lowest_foot_m": 2.2351741790771484e-08,
+      "max_seam_gap_m": 1.3943737203041392e-07
+    },
+    "grip": {
+      "frame_start": 0.0,
+      "frame_end": 180.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 22.5,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 45.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 90.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 135.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 157.5,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 180.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        }
+      ],
+      "lowest_foot_m": 7.450580596923828e-09,
+      "highest_lowest_foot_m": 7.450580596923828e-09,
+      "max_seam_gap_m": 1.1926748300777466e-07
+    },
+    "finger_wave": {
+      "frame_start": 0.0,
+      "frame_end": 300.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 37.5,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 75.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 150.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 225.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 262.5,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 300.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        }
+      ],
+      "lowest_foot_m": 7.450580596923828e-09,
+      "highest_lowest_foot_m": 7.450580596923828e-09,
+      "max_seam_gap_m": 1.1926748300777466e-07
+    },
+    "wrist": {
+      "frame_start": 0.0,
+      "frame_end": 180.0,
+      "samples": [
+        {
+          "frame": 0.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 22.5,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 45.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 90.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 135.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 157.5,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        },
+        {
+          "frame": 180.0,
+          "lowest_foot_m": 7.450580596923828e-09,
+          "max_seam_gap_m": 1.1926748300777466e-07
+        }
+      ],
+      "lowest_foot_m": 7.450580596923828e-09,
+      "highest_lowest_foot_m": 7.450580596923828e-09,
+      "max_seam_gap_m": 1.1926748300777466e-07
+    }
+  }
+}
